@@ -1,0 +1,33 @@
+{
+    "header": [
+        {
+            "targetElement": "body", "elementName": "div", "elementAttributes": [{ "name": "class", "value": "modal" }, { "name": "id", "value": "newsModal" }], "innerHTML": null,
+            "nestedElements": [
+                { 
+                    "targetElement": "newsModal", "elementName": "div", "elementAttributes": [{ "name": "class", "value": "modal-content" }, { "name": "id", "value": "modal-content-id" }], "innerHTML": null, 
+                    "nestedElements": [
+                        { 
+                            "targetElement": "modal-content-id", "elementName": "div", "elementAttributes": [{ "name": "class", "value": "modal-header" }, { "name": "id", "value": "modal-header-id" }], "innerHTML": null, 
+                            "nestedElements": [
+                                { "targetElement": "modal-header-id", "elementName": "span", "elementAttributes": [{ "name": "class", "value": "close" }, { "name": "id", "value": "modal-header-close-id" }], "innerHTML": "x", "nestedElements": null },
+                                { "targetElement": "modal-header-id", "elementName": "h3", "elementAttributes": [{ "name": "id", "value": "modal-header-news-title-id" }], "innerHTML": null, "nestedElements": null }
+                            ] 
+                        },
+                        { 
+                            "targetElement": "modal-content-id", "elementName": "div", "elementAttributes": [{ "name": "class", "value": "modal-body" }, { "name": "id", "value": "modal-body-id" }], "innerHTML": null, 
+                            "nestedElements": [
+                                { "targetElement": "modal-body-id", "elementName": "p", "elementAttributes": [{ "name": "id", "value": "modal-body-date-id" }], "innerHTML": null, "nestedElements": null },
+                                { "targetElement": "modal-body-id", "elementName": "p", "elementAttributes": [{ "name": "id", "value": "modal-body-description-id" }], "innerHTML": null, "nestedElements": null }
+                            ] 
+                        }
+                    ]
+                }
+            ]
+        },
+        { "targetElement": "head", "elementName": "h1", "elementAttributes": [{ "name": "class", "value": "head-title" }], "innerHTML": "NEWSFEED", "nestedElements": null },
+        { "targetElement": "head", "elementName": "p", "elementAttributes": [{ "name": "class", "value": "head-description" }], "innerHTML": "Yet another newsfeed", "nestedElements": null }
+    ],
+    "footer": [
+        { "targetElement": "footer", "elementName": "small", "elementAttributes": [], "innerHTML": " NewsFeed 2019", "nestedElements": null }
+    ]
+}
