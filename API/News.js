@@ -8,7 +8,7 @@ class News {
     }
 
     fetchNewsChannelNames = () => {
-        fetch('https://newsapi.org/v2/sources?apiKey=4636bfe61b174d4da87618f6fe022437')
+        fetch('https://newsapi.org/v2/sources?apiKey=a0c28fe771af45c68fa5baac4ab1c75f')
             .then(response => response.json())
             .then(data => {
                     this.newsChannelNames = data['sources'].filter(channel => this.allowedChannelIDs.includes(channel.id)); 
@@ -23,7 +23,7 @@ class News {
         document.getElementById('main').innerHTML = '';
         document.getElementById('main').classList.add('loader');
 
-        fetch('https://newsapi.org/v1/articles?source=' + channelId + '&apiKey=4636bfe61b174d4da87618f6fe022437')
+        fetch('https://newsapi.org/v1/articles?source=' + channelId + '&apiKey=a0c28fe771af45c68fa5baac4ab1c75f')
             .then(response => response.json())
             .then(data => {
                 let newsRecords = [];
